@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url(./font/alexbrush-regular-webfont.woff2) format('woff2'),
+         url(./font/alexbrush-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  body{
+    margin:0;
+    padding:0;
+  }
+
+  header {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(8, 8, 8);
+    margin-bottom: 0;
+  }
+  
+  #titre {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  h1 {
+    font-family: 'alex_brushregular';
+    color: #ECADBA;
+    font-size: 100px;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-family: 'alex_brushregular';
+    font-size: 70px;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  img {
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-radius: 50%;
+  }
+
+  #information {
+    display: flex;
+    flex-direction: column;
+    
+    position:absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 50;
+    color:rgb(255, 255, 255);
+    border-width:5px;
+    border-style:double;
+    border-color:rgb(255, 255, 255);
+    border-radius: 10px;
+
+  }
+  a {
+    color:rgb(255, 255, 255);
+  }
+  a:hover {
+    color:#ECADBA
+  }
+  a:visited{
+    color:#ECADBA;
+  }
+
+  #accroche {
+    font-size: 30px;
+    color: #ECADBA;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+  } 
+  #acc{
+    text-align: center;
+  }
+
+  #principal{
+    
+    height: 100%;
+    }
+    
+    #formation {
+    float: left;
+    margin-top: 0%;
+    background-color: #ECADBA;
+    height: 724px;
+    width: 50%;
+    text-align: center;
+    }
+    #metier{
+    margin-left: 50%;
+    margin-top: 0%;
+    height:50%;
+    align-self: flex-end;
+    width:50%;
+    text-align: center;
+    }
+    #competence{
+        margin-left: 50%;
+        background-color: gray;
+        height:50%;
+        width:50%;
+        text-align: center;
+    }
+
+
+h3{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20PX;
+ }
+
+h4{
+    font-size: 20px;
+}
+.langage li{
+    display: inline-block;
+    margin-inline-end: 100px;
+
+   
+}
+p{
+    display:inline;
+    font-size: 15px;
+}
+.experience{
+  display: block;
+  font-style:oblique;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium';
+}
+ h4{
+    margin-bottom: 10px;
+ }
+
+ .date, .lieu,.organise{ 
+    font-size: 12px;
+ }
+ footer {
+    clear: both;
+    background-color:rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ ol{
+    list-style-type:none;
+ }
+
